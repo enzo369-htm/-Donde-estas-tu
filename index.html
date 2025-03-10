@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -28,12 +28,14 @@
             margin-bottom: 10px;
             width: 90%;
         }
+        .section h2 {
+            text-decoration: underline;
+        }
         .text-area {
             width: 100%;
             height: 150px;
             border: 1px solid gray;
             padding: 5px;
-            background: repeating-linear-gradient(white, white 28px, gray 29px);
             box-sizing: border-box;
         }
         .grid-4 {
@@ -59,6 +61,9 @@
             .grid-2 .section {
                 width: 48%;
             }
+            .section:nth-child(2) {
+                width: 48%;
+            }
         }
     </style>
 </head>
@@ -68,31 +73,31 @@
         <div class="section">
             <h2>4 Referentes Sutiles</h2>
             <div class="grid-4">
-                <textarea class="text-area" placeholder="Referente 1"></textarea>
-                <textarea class="text-area" placeholder="Referente 2"></textarea>
-                <textarea class="text-area" placeholder="Referente 3"></textarea>
-                <textarea class="text-area" placeholder="Referente 4"></textarea>
+                <textarea class="text-area" placeholder="Escribe aquí"></textarea>
+                <textarea class="text-area" placeholder="Escribe aquí"></textarea>
+                <textarea class="text-area" placeholder="Escribe aquí"></textarea>
+                <textarea class="text-area" placeholder="Escribe aquí"></textarea>
             </div>
         </div>
         <div class="section">
             <h2>Referentes Semanales</h2>
-            <textarea class="text-area"></textarea>
+            <textarea class="text-area" placeholder="Escribe aquí"></textarea>
         </div>
         <div class="section">
             <h2>Fallas</h2>
-            <textarea class="text-area"></textarea>
+            <textarea class="text-area" placeholder="Escribe aquí"></textarea>
         </div>
         <div class="section">
             <h2>Avances</h2>
-            <textarea class="text-area"></textarea>
+            <textarea class="text-area" placeholder="Escribe aquí"></textarea>
         </div>
         <div class="section">
             <h2>Repetición</h2>
-            <textarea class="text-area"></textarea>
+            <textarea class="text-area" placeholder="Escribe aquí"></textarea>
         </div>
         <div class="section">
             <h2>Sincronicidades</h2>
-            <textarea class="text-area"></textarea>
+            <textarea class="text-area" placeholder="Escribe aquí"></textarea>
         </div>
     </div>
 </body>
